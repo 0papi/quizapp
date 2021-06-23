@@ -4,7 +4,7 @@ const quizQuestions = [
   {
     question: 'Who was the first black president of the United States?', 
     a: 'Tanahase Coates',
-    b: 'Barack Obamar',
+    b: 'Barack Obama',
     c: 'Jamal Obamar',
     d: 'Douglas Johnson',
     correct: 'b'
@@ -119,9 +119,9 @@ submitBtn.addEventListener('click', () => {
   
     } else {
       if(score < 3) {
-        quiz.innerHTML = `<h4>Oops, you answered ${score}/${quizQuestions.length} questions correctly</h4>`;
+        quiz.innerHTML = `<h4>Oops, you answered ${score}/${quizQuestions.length} questions correctly</h4> <button onclick="location.reload()" class="btn">Play Again</button>`;
       } else {
-        quiz.innerHTML = `<h4>Congratulations! You answered ${score}/${quizQuestions.length} questions correctly</h4>`; 
+        quiz.innerHTML = `<h4>Congratulations! You answered ${score}/${quizQuestions.length} questions correctly</h4> <button onclick="location.reload()" class="btn">Play Again</button>`; 
       }
     }
   
