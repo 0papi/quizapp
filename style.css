@@ -102,6 +102,7 @@ ul li {
   cursor: pointer;
   width: 100%;
   display: block;
+  outline: none;
 }
 
 .questions-answered h3 {
