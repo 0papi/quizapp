@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces&display=swap');
+
+:root {
+  --primary-color: #080518; 
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dddd;
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Barlow', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h4 {
+  padding: 2rem;
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 1.5px;
+  line-height: 1.6;
+}
+
+ul {
+  width: 100%;
+  padding-left: 0;
+}
+
+
+ul > li {
+  margin-bottom: 20px;
+}
+
+
+ul li {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.quiz-items {
+  background-color: var(--primary-color);
+  color: #dddd;
+  box-shadow:  3px 3px 5px rgba(0,0,0,0.2);
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 400px;
+  max-width: 100%;
+}
+
+.quiz-body {
+  padding: 2rem;
+}
+
+.quiz-body h2 {
+  color: #fff;
+  margin-bottom: 60px;
+  font-size: 1.3rem;
+  /* margin: 0; */
+
+}
+
+
+.main-items label {
+  font-size: 1rem;
+  font-family: 'Barlow', sans-serif;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.btn {
+  text-align: center;
+  margin: 20px auto;
+  margin-bottom: 0px;
+  padding: 1.5em 2em;
+  background-color: #4370E7; 
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  font-family: 'Frauances', sans-serif;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+}
+
+.questions-answered h3 {
+  letter-spacing: 1.3px;
+  line-height: 1.6;
+  font-size: 1.5rem;
+  width: 100%;
+  padding-left: 2rem;
+}
+
+hr {
+  width: 100%;
+  border: 1px dashed rgba(67, 112, 231, 0.3);
+
+}
+
