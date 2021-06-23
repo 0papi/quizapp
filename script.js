@@ -1,9 +1,9 @@
 
-// create quiz questions using objects
+// create quiz questions using array and object
 const quizQuestions = [
   {
     question: 'Who was the first black president of the United States?', 
-    a: 'Tanahase Coates',
+    a: 'Ta-Nehisi Coates',
     b: 'Barack Obama',
     c: 'Jamal Obamar',
     d: 'Douglas Johnson',
@@ -16,7 +16,7 @@ const quizQuestions = [
     d: 'Jobs & Wozniak',
     correct: 'd'
   }, {
-    question: 'Which of these is a basketball legend?',
+    question: 'Which of these is a tennis legend?',
     a: 'Cristiano Ronaldo',
     b: 'Rihanna',
     c: 'Serena Williams',
