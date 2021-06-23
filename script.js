@@ -36,6 +36,41 @@ const quizQuestions = [
     c: 'WHO',
     d: 'Commonwealth of Nations',
     correct: 'b'
+  }, {
+    question: 'What are two things you can never eat before breakfast?',
+    a: 'Apples and Pears',
+    b: 'Chickens and Goats',
+    c: 'Lunch and Dinner',
+    d: 'Rice and Stew',
+    correct: 'c'
+  }, {
+    question: 'What gets wetter the more it dries?',
+    a: 'Rags',
+    b: 'Towel',
+    c: 'Clothes',
+    d: 'Trousers',
+    correct: 'b'
+  }, {
+    question: 'What word is spelled incorrectly in every single dictionary?',
+    a: 'Pulchritudinous',
+    b: 'Absence',
+    c: 'Acquintance',
+    d: 'Incorrectly',
+    correct: 'd'
+  }, {
+    question: 'What can one catch that is not thrown?',
+    a: ' A stone',
+    b: 'A fly',
+    c: 'Air',
+    d: 'A cold',
+    correct: 'd'
+  }, {
+    question: 'What goes up but never ever comes down?',
+    a: 'Angels',
+    b: 'Birds',
+    c: 'Your age',
+    d: 'Up',
+    correct: 'c'
   }
 ];
 
@@ -118,7 +153,7 @@ submitBtn.addEventListener('click', () => {
       loadQuiz();
   
     } else {
-      if(score < 3) {
+      if(score < 5) {
         quiz.innerHTML = `<h4>Oops, you answered ${score}/${quizQuestions.length} questions correctly</h4> <button onclick="location.reload()" class="btn">Play Again</button>`;
       } else {
         quiz.innerHTML = `<h4>Congratulations! You answered ${score}/${quizQuestions.length} questions correctly</h4> <button onclick="location.reload()" class="btn">Play Again</button>`; 
